@@ -57,7 +57,7 @@ Before you begin, ensure you have the following installed on your local machine:
    Open your terminal and run the following command:
 
    ```sh
-   git clone https://github.com/ayaxan7/Recycling-Reminder.git
+   git clone https://github.com/govindup63/reminder-recycle.git
    ```
 
    Navigate into the cloned project directory:
