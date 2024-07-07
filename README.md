@@ -12,7 +12,7 @@ This project provides a simple reminder system for recycling. Users can sign up 
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [License](#license)
-- [Contact](#contact)
+
 
 ## Features
 
@@ -140,11 +140,5 @@ Recycling-Reminder/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-If you have any questions, feel free to reach out:
-
-- Email: projectreminder6323@gmail.com
 ```
-
-You can copy and paste this entire text into your `README.md` file for your GitHub project.
