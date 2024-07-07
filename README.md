@@ -114,13 +114,26 @@ Before you begin, ensure you have the following installed on your local machine:
 
 ```plaintext
 Recycling-Reminder/
-├── client/
-│   ├── index.html
-│   ├── remind.css
-│   └── script.js
-└── server/
-    ├── server.js
-    └── package.json
+├── node_modules/
+├── .gitattributes
+├── eg.css
+├── eg.html
+├── index.html
+├── package-lock.json
+├── package.json
+├── picture1.png
+├── picture2.png
+├── picture3.png
+├── README.md
+├── remind.css
+├── reminder.html
+├── Screenshot 2024-07-01 0856...
+├── script.js
+├── server.js
+├── style.css
+├── tips.css
+├── tips.html
+
 ```
 
 ## License
