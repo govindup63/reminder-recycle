@@ -4,17 +4,15 @@ This project provides a simple reminder system for recycling. Users can sign up 
 
 ## Table of Contents
 
-- [Recycling Reminder Project](#recycling-reminder-project)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Project](#running-the-project)
-  - [Usage](#usage)
-  - [Folder Structure](#folder-structure)
-  - [License](#license)
-  - [Contact](#contact)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
@@ -37,6 +35,21 @@ Before you begin, ensure you have the following installed on your local machine:
 
 - Node.js (v14 or above)
 - Git
+- Visual Studio Code (VS Code)
+- Live Preview Extension for VS Code
+
+### Node.js Installation
+
+1. Go to the [Node.js official website](https://nodejs.org/).
+2. Download the LTS version for your operating system.
+3. Follow the installation instructions on the website to install Node.js.
+
+### Live Preview Extension Installation
+
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X` (or `Cmd+Shift+X` on Mac).
+3. In the Extensions view search box, type `Live Preview`.
+4. Click `Install` on the Live Preview extension by Microsoft.
 
 ## Installation
 
@@ -45,4 +58,80 @@ Before you begin, ensure you have the following installed on your local machine:
    Open your terminal and run the following command:
 
    ```sh
-   git clone https://github.com/your-username/recycling-reminder.git
+   git clone https://github.com/ayaxan7/Recycling-Reminder.git
+   ```
+
+   Navigate into the cloned project directory:
+
+   ```sh
+   cd Recycling-Reminder
+   ```
+
+2. **Install server dependencies**
+
+   In the terminal, run the following command:
+
+   ```sh
+   npm install
+   ```
+
+## Running the Project
+
+1. **Open the project in VS Code**
+
+   In the terminal, run the following command:
+
+   ```sh
+   code .
+   ```
+
+2. **Start the server**
+
+   In VS Code terminal, run the following command:
+
+   ```sh
+   node server.js
+   ```
+
+   The server will run on `http://localhost:3000`.
+
+3. **Use Live Preview to open `index.html`**
+
+   - Make sure the Live Preview extension is installed.
+   - Go to the `index.html` file in the `client` directory.
+   - Right-click on the file and select `Open with Live Preview` or use the Live Preview command from the Command Palette:
+     - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the Command Palette.
+     - Type `Live Preview: Show Preview (Internal)` and select it.
+     - This will open a new browser window with your `index.html` file.
+
+## Usage
+
+1. Open `index.html` in your web browser using the Live Preview extension in VS Code.
+2. Fill in your email and select the reminder frequency.
+3. Click "Sign Up" to receive reminders.
+
+## Folder Structure
+
+```plaintext
+Recycling-Reminder/
+├── client/
+│   ├── index.html
+│   ├── remind.css
+│   └── script.js
+└── server/
+    ├── server.js
+    └── package.json
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions, feel free to reach out:
+
+- Email: projectreminder6323@gmail.com
+```
+
+You can copy and paste this entire text into your `README.md` file for your GitHub project.
