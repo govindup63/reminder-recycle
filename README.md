@@ -11,7 +11,6 @@ This project provides a simple reminder system for recycling. Users can sign up 
 - [Running the Project](#running-the-project)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [License](#license)
 
 
 ## Features
@@ -133,12 +132,5 @@ Recycling-Reminder/
 ├── style.css
 ├── tips.css
 ├── tips.html
-
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ```
